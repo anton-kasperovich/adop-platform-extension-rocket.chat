@@ -1,0 +1,6 @@
+PLATFORM_EXTENSION_SDK_VERSION=1.0
+PLATFORM_EXTENSION_NAME=rockerchat
+PLATFORM_EXTENSION_TYPE=docker
+PLATFORM_EXTENSION_DESCRIPTION="It is a great solution for communities and companies wanting to privately host their own chat service or for developers looking forward to build and evolve their own chat platforms."
+PLATFORM_EXTENSION_IMAGE=rockerchat.png
+PLATFORM_EXTENSION_SOURCE_URL=https://github.com/anton-kasperovich/adop-platform-extension-rocket.chat
