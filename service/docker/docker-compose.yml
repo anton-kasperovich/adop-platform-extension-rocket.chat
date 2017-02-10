@@ -2,7 +2,6 @@ version: '2'
 
 services:
   rocketchat:
-    container_name: rocketchat
     image: rocketchat/rocket.chat:0.51.0
     depends_on:
       - rocketchat_db
@@ -18,7 +17,6 @@ services:
       - "MONGO_URL=mongodb://rocketchat_db:27017/rocketchat"
 
   rocketchat_db:
-    container_name: rocketchat_db
     image: mongo:3.2
     volumes:
       - rocketchat_mongo_data:/data/db
