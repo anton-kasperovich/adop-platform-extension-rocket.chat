@@ -21,7 +21,7 @@ services:
     container_name: rocketchat_db
     image: mongo:3.2
     volumes:
-      - rocketchat_db:/data/db
+      - rocketchat_mongo_data:/data/db
     command: mongod --smallfiles --oplogSize 128
     networks:
       - backbone
@@ -34,7 +34,7 @@ networks:
       name: ${DOCKER_NETWORK_NAME}
 
 volumes:
-  rocketchat_db:
+  rocketchat_mongo_data:
     driver: local
   rocketchat_uploads:
     driver: local
