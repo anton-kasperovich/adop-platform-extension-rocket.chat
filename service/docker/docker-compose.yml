@@ -31,7 +31,7 @@ services:
 networks:
   backbone:
     external:
-      name: ${CUSTOM_NETWORK_NAME}
+      name: ${DOCKER_NETWORK_NAME}
 
 volumes:
   rocketchat_db:
