@@ -2,5 +2,5 @@ PLATFORM_EXTENSION_SDK_VERSION=1.0
 PLATFORM_EXTENSION_NAME=rockerchat
 PLATFORM_EXTENSION_TYPE=docker
 PLATFORM_EXTENSION_DESCRIPTION=ChatOps
-PLATFORM_EXTENSION_IMAGE=https://raw.githubusercontent.com/anton-kasperovich/adop-platform-extension-rocket.chat/master/rocketchat.svg
+PLATFORM_EXTENSION_IMAGE=https://raw.githubusercontent.com/anton-kasperovich/adop-platform-extension-rocket.chat/master/rocketchat.png
 PLATFORM_EXTENSION_SOURCE_URL=https://github.com/anton-kasperovich/adop-platform-extension-rocket.chat
